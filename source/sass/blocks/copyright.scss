@@ -1,0 +1,13 @@
+@use "../variables.scss";
+
+.copyright {
+  width: 130px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+
+  &__text {
+    color: variables.$text-title-color;
+  }
+}

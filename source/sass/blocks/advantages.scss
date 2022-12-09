@@ -1,0 +1,98 @@
+@use "../variables.scss";
+
+.advantages {
+  &__wrapper {
+    padding-top: 32px;
+  }
+
+  &__title {
+    width: 284px;
+    text-align: center;
+    color: variables.$text-title-color;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 26px;
+    margin: 0 auto 35px;
+  }
+
+  &__description {
+    width: 284px;
+    text-align: center;
+    margin: 0 auto 53px;
+  }
+
+  &__block-wrapper {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-align: center;
+  }
+
+  &__block-text-wrapper {
+    padding: 54px 0 40px;
+    background-color: variables.$background-blue;
+  }
+
+  &__block-description {
+    width: 284px;
+    margin: 17px auto 0;
+    color: variables.$background-white;
+  }
+
+  &__block-title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 26px;
+    margin: 0 0 11px 0;
+    color: variables.$background-white;
+  }
+
+  &__block-number {
+    color: variables.$background-white;
+  }
+
+  &__item-title {
+    color: variables.$text-title-color;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 26px;
+    text-align: left;
+    margin: 8px 0 16px 65px;
+  }
+
+  &__item-description {
+    width: 237px;
+    text-align: left;
+    margin: 0 0 25px 65px;
+  }
+
+  &__details-title {
+    color: variables.$text-title-color;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 26px;
+    margin: 0 0 11px 0;
+  }
+
+  &__details-description {
+    width: 257px;
+    margin: 17px auto 24px;
+  }
+
+  &__list {
+    margin: 0;
+    padding: 23px 0 46px 0;
+    list-style-type: none;
+  }
+
+  &__details {
+    margin: 0;
+    padding: 24px 0 4px 0;
+    list-style-type: none;
+    background-color: variables.$background-grey;
+  }
+
+  &__details-item-line {
+    padding-bottom: 24px;
+  }
+}

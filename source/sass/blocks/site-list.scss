@@ -1,0 +1,25 @@
+@use "../variables.scss";
+
+.site-list {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  background-color: variables.$background-blue;
+  font-family: "PT Sans", sans-serif;
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+  color: variables.$background-white;
+}
+
+.site-list__item a {
+  color: rgba(255, 255, 255, 1);
+}
+
+.site-list__item {
+  padding-top: 17px;
+  padding-bottom: 12px;
+  box-shadow: 0 1px 0 rgba(1, 1, 1, 0.2), inset 0 1px 0 rgba(255, 255, 255, 0.2);
+}

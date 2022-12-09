@@ -1,0 +1,10 @@
+.main-header {
+  padding-top: 17px;
+  padding-bottom: 17px;
+
+  &__logo {
+    position: absolute;
+    top: 0;
+    left: calc(100% / 2 - 93px);
+  }
+}

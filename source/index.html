@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Седона</title>
+    <link rel="stylesheet" href="./css/style.css">
   </head>
   <body class="page__body">
 
@@ -52,9 +53,11 @@
 
           <ol class="advantages__block-wrapper">
             <li class="advantages__block advantages__block--main">
-              <h3 class="advantages__block-title">НАСТОЯЩИЙ ГОРОДОК</h3>
-              <span class="advantages__block-description">— №1 —</span>
-              <p class="advantages__block-description">СЕДОНА НЕ АТТРАКЦИОН ДЛЯ ТУРИСТОВ, ТАМ ТЕЧЕТ СВОЯ ЖИЗНЬ</p>
+              <div class="advantages__block-text-wrapper">
+                <h3 class="advantages__block-title">НАСТОЯЩИЙ ГОРОДОК</h3>
+                <span class="advantages__block-number">— №1 —</span>
+                <p class="advantages__block-description">СЕДОНА НЕ АТТРАКЦИОН ДЛЯ ТУРИСТОВ, ТАМ ТЕЧЕТ СВОЯ ЖИЗНЬ</p>
+              </div>
               <div class="advantages__block-image-wrapper">
                 <img class="advantages__block-image" src="./img/city_view.png" width="320" height="260" alt="Открытая терраса на втором этаже дома на фоне гор.">
               </div>
@@ -77,27 +80,29 @@
 
 
             <li class="advantages__block advantages__block--second">
-              <h3 class="advantages__block-title">ТАМ ЕСТЬ Мост дьявола</h3>
-              <span class="advantages__block-description">— №2 —</span>
-              <p class="advantages__block-description">Да, по нему можно пройти! Если вы осмелитесь, конечно</p>
+              <div class="advantages__block-text-wrapper">
+                <h3 class="advantages__block-title">ТАМ ЕСТЬ Мост дьявола</h3>
+                <span class="advantages__block-number">— №2 —</span>
+                <p class="advantages__block-description">Да, по нему можно пройти! Если вы осмелитесь, конечно</p>
+              </div>
               <div class="advantages__block-image-wrapper">
                 <img class="advantages__block-image" src="./img/diablo_bridge.png" width="320" height="260" alt="Узкое ущелье в горах.">
               </div>
 
               <ul class="advantages__details">
-                <li class="advantages__details-item">
+                <li class="advantages__details-item advantages__details-item-line">
                   <h3 class="advantages__details-title">НЕБОЛЬШАЯ ПЛОЩАДЬ</h3>
-                  <span class="advantages__details-description">— №3 —</span>
+                  <span class="advantages__details-number">— №3 —</span>
                   <p class="advantages__details-description">ВСЕ интересные места находятся очень близко</p>
                 </li>
-                <li class="advantages__details-item">
+                <li class="advantages__details-item advantages__details-item-line">
                   <h3 class="advantages__details-title">КРАСИВАЯ ДОРОГА</h3>
-                  <span class="advantages__details-description">— №4 —</span>
+                  <span class="advantages__details-number">— №4 —</span>
                   <p class="advantages__details-description">ЕХАТЬ В СЕДОНУ ИЗ ЛАС-ВЕГАСА совсем НЕ СКУЧНО!</p>
                 </li>
                 <li class="advantages__details-item">
                   <h3 class="advantages__details-title">МАЛО ТУРИСТОВ</h3>
-                  <span class="advantages__details-description">— №5 —</span>
+                  <span class="advantages__details-number">— №5 —</span>
                   <p class="advantages__details-description">Большинство едет в гранд каньон и толпится там</p>
                 </li>
               </ul>
@@ -107,9 +112,11 @@
       </section>
 
       <section class="booking">
-        <h3 class="booking__title">ЗАИНТЕРЕСОВАЛИСЬ?</h3>
-        <p class="booking__description">Укажите предполагаемые датыпоездки, и мы покажем вам лучшие предложения гостиниц в седоне</p>
-        <a class="booking__link" href="#">Найти Гостиницу</a>
+        <div class="booking__wrapper">
+          <h3 class="booking__title">ЗАИНТЕРЕСОВАЛИСЬ?</h3>
+          <p class="booking__description">Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в седоне</p>
+          <a class="booking__link" href="#">Найти Гостиницу</a>
+        </div>
       </section>
 
       <div class="map">
@@ -124,6 +131,7 @@
           <ul class="main-footer__social-list social">
             <li class="social__item">
               <a class="social__link social__link--vkontakte" href="https://vk.com/htmlacademy">
+                <img src="./img/vk_icon.svg" width="24" height="24" alt="Мы в Вконтакте">
                 <span class="visually-hidden">Мы в Вконтакте</span>
               </a>
             </li>
