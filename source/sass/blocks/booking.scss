@@ -1,32 +1,30 @@
 @use "../variables.scss";
 
-.booking {
-  &__wrapper {
-    padding-top: 38px;
-    padding-bottom: 49px;
-    text-align: center;
-  }
+.booking__wrapper {
+  padding-top: 38px;
+  padding-bottom: 49px;
+  text-align: center;
+}
 
-  &__title {
-    color: variables.$text-title-color;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 26px;
-    margin: 0 auto 28px;
-  }
+.booking__title {
+  color: variables.$text-title-color;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 26px;
+  margin: 0 auto 28px;
+}
 
-  &__description {
-    width: 265px;
-    margin: 0 auto 32px;
-  }
+.booking__description {
+  width: 265px;
+  margin: 0 auto 32px;
+}
 
-  &__link {
-    font-weight: 700;
-    font-size: 21px;
-    line-height: 26px;
-    padding: 16px 49px;
-    background-color: variables.$background-blue;
-    display: inline-block;
-    color: variables.$background-white;
-  }
+.booking__link {
+  font-weight: 700;
+  font-size: 21px;
+  line-height: 26px;
+  padding: 16px 49px;
+  background-color: variables.$background-blue;
+  display: inline-block;
+  color: variables.$background-white;
 }

@@ -6,8 +6,8 @@
   justify-content: space-between;
   align-items: center;
   margin: 0 auto;
+}
 
-  &__text {
-    color: variables.$text-title-color;
-  }
+.copyright__text {
+  color: variables.$text-title-color;
 }
