@@ -1,0 +1,18 @@
+@use "../variables.scss";
+
+.main-footer__wrapper {
+  padding-top: 28px;
+  padding-bottom: 23px;
+  text-align: center;
+}
+
+.main-footer__link-name {
+  color: variables.$text-title-color;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 21px;
+  line-height: 26px;
+  margin: 0 0 33px 0;
+  display: inline-block;
+}

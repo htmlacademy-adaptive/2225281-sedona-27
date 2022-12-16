@@ -1,0 +1,19 @@
+@use "../variables.scss";
+
+.social {
+  margin: 0 auto 37px;
+  padding: 0;
+  list-style-type: none;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.social__item {
+  width: 48px;
+  height: 48px;
+  box-sizing: border-box;
+  background-color: variables.$background-blue;
+  padding: 12px;
+}

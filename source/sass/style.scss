@@ -1,1 +1,12 @@
-// Начните писать стили здесь
+@use "./fonts.scss";
+@use "./globals.scss";
+@use "blocks/advantages.scss";
+@use "blocks/booking.scss";
+@use "blocks/copyright.scss";
+@use "blocks/hero.scss";
+@use "blocks/main-footer.scss";
+@use "blocks/main-header.scss";
+@use "blocks/main-nav.scss";
+@use "blocks/page.scss";
+@use "blocks/site-list.scss";
+@use "blocks/social.scss";
