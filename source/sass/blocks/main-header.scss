@@ -1,10 +1,31 @@
+@use "../variables.scss";
+
 .main-header {
-  padding-top: 17px;
-  padding-bottom: 17px;
+  display: flex;
+  flex-direction: column;
+  min-height: 56px;
+  background-color: variables.$background-white;
 }
 
 .main-header__logo {
   position: absolute;
   top: 0;
   left: calc(100% / 2 - 93px);
+}
+
+@media (min-width: variables.$tablet-width) {
+  .main-header {
+    width: 768px;
+    margin: 0 auto;
+    box-sizing: border-box;
+  }
+}
+
+@media (min-width: variables.$desktop-width) {
+  .main-header {
+    width: 1200px;
+    margin: 0 auto;
+    padding-left: 43px;
+    padding-right: 44px;
+  }
 }

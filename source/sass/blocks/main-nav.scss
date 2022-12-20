@@ -1,6 +1,8 @@
 @use "../variables.scss";
 
 .main-nav__toggle {
+  display: flex;
+  margin: 17px 20px 17px auto;
   width: 23px;
   height: 22px;
   background-image: url("../img/burger_icon.svg");
@@ -10,3 +12,10 @@
   border: none;
   padding: 0;
 }
+
+@media (min-width: variables.$tablet-width) {
+  .main-nav__toggle {
+    display: none;
+  }
+}
+
