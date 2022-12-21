@@ -17,3 +17,9 @@
   background-color: variables.$background-blue;
   padding: 12px;
 }
+
+@media (min-width: variables.$tablet-width) {
+  .social {
+    margin: 0;
+  }
+}
