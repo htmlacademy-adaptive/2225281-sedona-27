@@ -1,9 +1,18 @@
+@use "../variables.scss";
+
 .hero {
   padding-top: 86px;
   padding-bottom: 83px;
   background-color: rgba(71, 118, 160, 1);
-  background-image: url("../img/hero_background_image.png");
+  background-image: url("../img/mobile_hero.png");
   background-repeat: no-repeat;
   background-position: center;
   text-align: center;
+}
+
+@media (min-width: variables.$desktop-width) {
+  .hero {
+    width: 1200px;
+    margin: 0 auto;
+  }
 }

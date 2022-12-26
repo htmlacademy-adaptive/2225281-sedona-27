@@ -1,12 +1,13 @@
 @use "../variables.scss";
 
 .booking__wrapper {
-  padding-top: 38px;
-  padding-bottom: 49px;
+  padding: 38px 10px 49px 10px;
+  box-sizing: border-box;
   text-align: center;
 }
 
 .booking__title {
+  width: 265px;
   color: variables.$text-title-color;
   font-weight: 700;
   font-size: 18px;
@@ -27,4 +28,32 @@
   background-color: variables.$background-blue;
   display: inline-block;
   color: variables.$background-white;
+}
+
+@media (min-width: variables.$tablet-width) {
+  .booking__wrapper {
+    padding: 61px 10px 58px 10px;
+  }
+
+  .booking__title {
+    width: 435px;
+    font-size: 30px;
+    line-height: 26px;
+    margin: 0 auto 30px;
+  }
+
+  .booking__description {
+    width: 435px;
+    margin: 0 auto 40px;
+  }
+
+  .booking__link {
+    padding: 15px 121px 17px 121px;
+  }
+}
+
+@media (min-width: variables.$desktop-width) {
+  .booking__wrapper {
+    padding: 61px 10px 66px 10px;
+  }
 }

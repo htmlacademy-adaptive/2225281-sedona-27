@@ -1,10 +1,18 @@
+@use "../variables.scss";
+
 .page__body {
-  margin: 0;
+  margin: 0 auto;
   font-family: "PT Sans", "Arial", "Helvetica", sans-serif;
   font-size: 14px;
   line-height: 21px;
   font-weight: 400;
   text-transform: uppercase;
   color: rgba(51, 51, 51, 1);
-  background-color: rgba(255, 255, 255, 1);
+  background-color: rgba(242, 242, 242, 1);
+}
+
+.page__body-wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: variables.$background-white;
 }
